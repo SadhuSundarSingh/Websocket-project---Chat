@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>ChatApp</title>
+    <link rel="icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" type="text/javascript"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Great+Vibes&family=Lobster&family=Noto+Sans+Khmer:wght@600&family=Noto+Sans+Symbols+2&family=Orbitron&family=Pacifico&family=Poppins&family=Rajdhani:wght@300&family=Roboto+Mono:wght@500&family=Ubuntu:wght@300&display=swap');
+        </style>
+    <script src="https://kit.fontawesome.com/4d02abcf66.js" crossorigin="anonymous"></script>
+    <link href="css/styles.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="centered-form" id="formm">
+        <div class="centered-form__box">
+            <h1>Join</h1>
+            
+                <label>Display Name</label>
+                <input type="text" placeholder="Display Name" name="username" id="disName" required>
+                <label>Mobile number</label>
+                <input type="text" placeholder="Mobile number" name="room" id="mobNum" required>
+                <button onclick="join()">Join</button>
+        </div>
+</div>
+<div id="secondFull">
+	<div id="second">
+	<div id="textArea"></div>
+	<br>
+	
+	<input type="text" id="roomID" value="" placeholder="mobileNumber" onchange="roomId()">
+	<input type="text" id="text" value="">
+	<input type="button" onclick="sendMessage()" value="Send message">
+	<br>
+	</div>
+	</div>
+</body>
+</html>
